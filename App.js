@@ -5,6 +5,8 @@
   export default function App() {
     return (
       <View style={styles.container}>
+        <Image source={require('./assets/central_perk_logo.jpeg')} style={{width:400, height:150}}/>
+        <Text style={{fontSize: 30, fontWeight: 'bold'}}>proba nuestro cafe</Text>
         <Cardcomp/>
         <StatusBar style="auto" />
       </View>
